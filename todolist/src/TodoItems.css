@@ -1,0 +1,7 @@
+.liList {
+  margin: 10px 0 0 760px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+}
