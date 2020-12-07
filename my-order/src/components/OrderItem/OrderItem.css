@@ -66,8 +66,19 @@
   border-radius: 5px;
   font-size: 14px;
 }
+.OrderItem-btns {
+  /* float: right; */
+  margin-left: 5px;
+  width: 80px;
+  height: 22px;
+  text-align: center;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+}
 .OrderItem-btn--red {
-  float: right;
+  /* float: right; */
   background-color: red;
 }
 .OrderItem-btn--gray {
@@ -90,5 +101,5 @@
   color: #999;
 }
 .OrderItem-star-light {
-  color: rgb(233, 32, 61);
+  color: red;
 }
