@@ -1,3 +1,7 @@
+.OrderItem-Container h5,
+h6 {
+  color: gray;
+}
 .OrderItem {
   display: block;
   padding: 11px 10px 11px 15px;
@@ -66,6 +70,15 @@
   border-radius: 5px;
   font-size: 14px;
 }
+.comment {
+  /* display: flex; */
+  /* align-items: flex-start; */
+}
+.details {
+  float: right;
+  margin-right: 10px;
+  border-bottom: 1px solid #ccc;
+}
 .OrderItem-btns {
   /* float: right; */
   margin-left: 5px;
@@ -84,8 +97,19 @@
 .OrderItem-btn--gray {
   background-color: gray;
 }
+.OrderItem-close {
+  float: right;
+  background-color: gray;
+}
 .OrderItem-commentContainer {
   width: 100%;
+}
+.OrderItem-Container {
+  width: 100%;
+  margin-top: 5px;
+  padding: 0 0 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
 .OrderItem-comment {
   width: 100%;
